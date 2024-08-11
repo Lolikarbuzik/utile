@@ -2,7 +2,6 @@ declare type CommandParameters = (NumberConstructor | StringConstructor | Boolea
 declare type Result = string | undefined | null | void
 declare type Get3DSpaceCordinatesImpl = { getX(): number, getY(): number, getZ(): number }
 
-
 /**
  * Gets blocks in distance from point (Vec3i or object that has Get3DSpaceCordinatesImpl.
  * The output doesnt contain any air blocks
