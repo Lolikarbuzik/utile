@@ -44,4 +44,4 @@ declare function getXYZ(obj: Vec3i | Get3DSpaceCordinatesImpl): [x: number, y: n
  * }, [Boolean], ["p"])
  * //             ^^^ you dont need to pass this parameter
  */
-declare function registerCommand<PC extends CommandParameters, A extends Array<any>>(name: string, callback: (...args: A) => Result, pChecks: PC, aliases: string[] = []): void
+declare function registerCommand<PC extends CommandParameters, A extends Array<any>>(name: string, callback: (...args: A) => Result, pChecks: PC, aliases: string[]): void
